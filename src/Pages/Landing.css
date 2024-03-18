@@ -1,0 +1,21 @@
+Pages/Landing.css
+
+.landing-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .main-content {
+    padding: 20px 0;
+  }
+  
+  .hero-section {
+    background-color: #d2863a;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .info-section {
+    margin-top: 40px;
+  }
