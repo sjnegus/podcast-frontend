@@ -14,7 +14,7 @@ function Landing() {
           <p>Explore the world of podcasts with us.</p>
             <img src={coverPhoto} alt="Archie Bunker" />
         </section>
-          <a href="/aboutpod" className="btn btn-primary mt-2">About the Pod</a>
+          {/* <a href="/aboutpod" className="btn btn-primary mt-2">About the Pod</a> */}
 
       </main>
     </div>
