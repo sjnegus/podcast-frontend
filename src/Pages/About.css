@@ -1,0 +1,12 @@
+div.aboutContainer {
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+
+}
+
+.singleCard {
+  width: 18rem;
+  margin: 2em;
+  background-color: #696969 !important;
+}

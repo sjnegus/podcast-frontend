@@ -2,6 +2,7 @@
 
 import React from 'react';
 import './Landing.css'; // Import the CSS file for styling
+import coverPhoto from '../assets/img/AB_logo_Final.jpg'
 
 function Landing() {
   return (
@@ -11,13 +12,10 @@ function Landing() {
         <section className="hero-section">
           <h2>Welcome to Our Website!</h2>
           <p>Explore the world of podcasts with us.</p>
-          <a href="/aboutpod" className="btn">Learn More</a>
+            <img src={coverPhoto} alt="Archie Bunker" />
         </section>
+          <a href="/aboutpod" className="btn btn-primary mt-2">About the Pod</a>
 
-        <section className="info-section">
-          <h2>About Us</h2>
-          <p>We are passionate about podcasts and sharing knowledge.</p>
-        </section>
       </main>
     </div>
   );

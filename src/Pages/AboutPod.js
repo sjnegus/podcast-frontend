@@ -1,12 +1,13 @@
 // About.js
 import React from "react";
-
+import './About.css'
 function AboutPod() {
   return (
-    <div>
-      <h2>About Pod</h2>
-      {/* Add content for the About page */}
-    </div>
+
+    <section className="info-section">
+    <h2>About Us</h2>
+    <p>We are passionate about podcasts and sharing knowledge.</p>
+  </section>
   );
 }
 

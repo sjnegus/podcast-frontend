@@ -5,12 +5,13 @@ import Contact from "./Pages/Contact";
 import AboutPod from "./Pages/AboutPod";
 import AboutHost from "./Pages/AboutHost";
 import Navigation from "./components/Navigation"
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <div className="App">
-      <Router>
         <Navigation />
+      <Router>
         <Routes>
           <Route exact path="/" element={<Landing />} /> {/* Updated Route component */}
           <Route path="/aboutpod" element={<AboutPod />} />
@@ -19,6 +20,7 @@ function App() {
           {/* Add more routes for other pages */}
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
